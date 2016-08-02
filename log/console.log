@@ -1,0 +1,20 @@
+2016-08-03 04:02:28.921 [info] <0.7.0> Application lager started on node gray_erlang@ericPro
+2016-08-03 04:02:28.936 [info] <0.7.0> Application crypto started on node gray_erlang@ericPro
+2016-08-03 04:02:28.956 [info] <0.7.0> Application mimetypes started on node gray_erlang@ericPro
+2016-08-03 04:02:29.007 [info] <0.95.0>@boss_web_controller_init:init_services:132 Starting Boss in development mode...
+2016-08-03 04:02:29.016 [notice] <0.63.0>@lager_app:132 Deprecated lager_file_backend config detected, please consider updating it
+2016-08-03 04:02:29.021 [info] <0.95.0>@boss_db:start:77 Start Database Adapter boss_db_adapter_mock options [{adapter,mock},{cache_enable,false},{cache_prefix,db},{shards,[]},{is_master_node,true},{db_host,"localhost"},{db_port,1978}]
+2016-08-03 04:02:29.085 [info] <0.7.0> Application tinymq started on node gray_erlang@ericPro
+2016-08-03 04:02:29.156 [info] <0.7.0> Application ranch started on node gray_erlang@ericPro
+2016-08-03 04:02:29.159 [info] <0.7.0> Application cowlib started on node gray_erlang@ericPro
+2016-08-03 04:02:29.170 [info] <0.7.0> Application cowboy started on node gray_erlang@ericPro
+2016-08-03 04:02:29.279 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/Users/eric/local_madai/git_projects/gray_erlang/src/mail/gray_erlang_incoming_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/eric/local_madai/git_projects/gray_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-08-03 04:02:29.328 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/Users/eric/local_madai/git_projects/gray_erlang/src/mail/gray_erlang_outgoing_mail_controller.erl" with options [{out_dir,undefined},{include_dirs,["/Users/eric/local_madai/git_projects/gray_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-08-03 04:02:29.349 [info] <0.95.0>@boss_controller_compiler:compile:71 Compile controller /Users/eric/local_madai/git_projects/gray_erlang/src/controller/gray_configs_controller.erl
+2016-08-03 04:02:29.349 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/Users/eric/local_madai/git_projects/gray_erlang/src/controller/gray_configs_controller.erl" with options [debug_info,{pre_revert_transform,#Fun<boss_controller_compiler.add_routes_to_forms.1>},{out_dir,undefined},{include_dirs,["/Users/eric/local_madai/git_projects/gray_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-08-03 04:02:29.364 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/Users/eric/local_madai/git_projects/gray_erlang/src/view/lib/tag_modules/gray_erlang_custom_tags.erl" with options [{out_dir,undefined},{include_dirs,["/Users/eric/local_madai/git_projects/gray_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-08-03 04:02:29.385 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/Users/eric/local_madai/git_projects/gray_erlang/src/view/lib/filter_modules/gray_erlang_custom_filters.erl" with options [{out_dir,undefined},{include_dirs,["/Users/eric/local_madai/git_projects/gray_erlang/include"]},{compiler_options,[{parse_transform,lager_transform},return_errors]}] 
+2016-08-03 04:02:29.466 [notice] <0.95.0>@boss_compiler:compile:47 Compile file "/Users/eric/local_madai/git_projects/gray_erlang/priv/init/gray_erlang_01_news.erl" with options [{include_dirs,["/Users/eric/local_madai/git_projects/gray_erlang/include"]}] 
+2016-08-03 04:02:42.586 [warning] <0.277.0>@boss_web_controller_handle_request:log_status_code:186 GET /greeting/hello [gray_erlang] 404 4ms
+2016-08-03 04:02:49.713 [warning] <0.279.0>@boss_web_controller_handle_request:log_status_code:186 GET /configs/hello [gray_erlang] 404 1ms
+2016-08-03 04:02:58.466 [warning] <0.281.0>@boss_web_controller_handle_request:log_status_code:186 GET /config/hello [gray_erlang] 404 1ms
